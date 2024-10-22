@@ -145,8 +145,8 @@
         "fee_rate_prop": 0
       },
       "node_2": {
-        "pubkey": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f",
-        "alias": "44",
+        "pubkey": "03d607f3e69fd032524a867b288216bfab263b6eaee4e07783799a6fe69bb84fac",
+        "alias": "22",
         "max_htlc_count": 15,
         "max_in_flight_msat": 50000000000,
         "min_htlc_size_msat": 1,

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
   <key id="target_policy" for="edge" attr.name="target_policy" attr.type="string" />
-<key id="services" attr.name="services" attr.type="string" for="graph"/>
+  <key id="services" attr.name="services" attr.type="string" for="graph"/>
   <key id="source_policy" for="edge" attr.name="source_policy" attr.type="string" />
   <key id="channel_open" for="edge" attr.name="channel_open" attr.type="string" />
   <key id="image" for="node" attr.name="image" attr.type="string" />
@@ -16,7 +16,7 @@
   <key id="bitcoin_config" for="node" attr.name="bitcoin_config" attr.type="string" />
   <key id="version" for="node" attr.name="version" attr.type="string" />
   <graph edgedefault="directed">
-<data key="services">simln</data>
+  <data key="services">simln</data>
     <node id="0">
       <data key="version">27.0</data>
       <data key="bitcoin_config">-uacomment=tank000000</data>
@@ -629,23 +629,23 @@
       <data key="ln_image">carlakirkcohen/lnd:attackathon</data>
     </node>
     <edge source="0" target="1" id="0" />
-    <edge source="0" target="9" id="0" />
-    <edge source="0" target="22" id="0" />
-    <edge source="0" target="8" id="0" />
-    <edge source="0" target="46" id="0" />
-    <edge source="0" target="21" id="0" />
-    <edge source="0" target="23" id="0" />
+    <edge source="0" target="25" id="0" />
+    <edge source="0" target="27" id="0" />
     <edge source="0" target="41" id="0" />
-    <edge source="0" target="48" id="0" />
-    <edge source="0" target="48" id="478">
-      <data key="channel_open">--local_amt=130000 --push_amt=65000</data>
-      <data key="source_policy"> --base_fee_msat=1000 --fee_rate_ppm=1 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=65000000</data>
-      <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=1 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=65000000</data>
-    </edge>
+    <edge source="0" target="38" id="0" />
+    <edge source="0" target="12" id="0" />
+    <edge source="0" target="6" id="0" />
     <edge source="0" target="6" id="488">
       <data key="channel_open">--local_amt=300000 --push_amt=150000</data>
       <data key="source_policy"> --base_fee_msat=1000 --fee_rate_ppm=1 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=150000000</data>
       <data key="target_policy"> --base_fee_msat=0 --fee_rate_ppm=50 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=150000000</data>
+    </edge>
+    <edge source="0" target="47" id="0" />
+    <edge source="0" target="44" id="0" />
+    <edge source="0" target="48" id="478">
+      <data key="channel_open">--local_amt=130000 --push_amt=65000</data>
+      <data key="source_policy"> --base_fee_msat=1000 --fee_rate_ppm=1 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=65000000</data>
+      <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=1 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=65000000</data>
     </edge>
     <edge source="0" target="4" id="489">
       <data key="channel_open">--local_amt=500000 --push_amt=250000</data>
@@ -653,66 +653,66 @@
       <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=10 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=250000000</data>
     </edge>
     <edge source="1" target="2" id="0" />
-    <edge source="1" target="36" id="0" />
-    <edge source="1" target="33" id="0" />
-    <edge source="1" target="26" id="0" />
-    <edge source="1" target="47" id="0" />
-    <edge source="1" target="16" id="0" />
-    <edge source="1" target="42" id="0" />
-    <edge source="1" target="14" id="0" />
-    <edge source="1" target="18" id="0" />
+    <edge source="1" target="8" id="0" />
+    <edge source="1" target="21" id="0" />
+    <edge source="1" target="44" id="0" />
+    <edge source="1" target="38" id="0" />
+    <edge source="1" target="13" id="0" />
+    <edge source="1" target="9" id="0" />
+    <edge source="1" target="5" id="0" />
+    <edge source="1" target="32" id="0" />
     <edge source="1" target="25" id="517">
       <data key="channel_open">--local_amt=50000 --push_amt=25000</data>
       <data key="source_policy"> --base_fee_msat=1000 --fee_rate_ppm=1 --time_lock_delta=80 --min_htlc_msat=1000 --max_htlc_msat=25000000</data>
       <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=1 --time_lock_delta=80 --min_htlc_msat=1000 --max_htlc_msat=25000000</data>
     </edge>
     <edge source="2" target="3" id="0" />
-    <edge source="2" target="7" id="0" />
-    <edge source="2" target="11" id="0" />
-    <edge source="2" target="32" id="0" />
-    <edge source="2" target="50" id="0" />
-    <edge source="2" target="13" id="0" />
-    <edge source="2" target="24" id="0" />
-    <edge source="2" target="43" id="0" />
-    <edge source="2" target="27" id="0" />
+    <edge source="2" target="20" id="0" />
+    <edge source="2" target="41" id="0" />
+    <edge source="2" target="47" id="0" />
+    <edge source="2" target="35" id="0" />
+    <edge source="2" target="16" id="0" />
+    <edge source="2" target="18" id="0" />
+    <edge source="2" target="14" id="0" />
+    <edge source="2" target="8" id="0" />
     <edge source="2" target="25" id="515">
       <data key="channel_open">--local_amt=2000000 --push_amt=1000000</data>
       <data key="source_policy"> --base_fee_msat=1000 --fee_rate_ppm=1 --time_lock_delta=80 --min_htlc_msat=1000 --max_htlc_msat=1000000000</data>
       <data key="target_policy"> --base_fee_msat=5805 --fee_rate_ppm=6 --time_lock_delta=34 --min_htlc_msat=1 --max_htlc_msat=1000000000</data>
     </edge>
     <edge source="3" target="4" id="0" />
-    <edge source="3" target="14" id="0" />
-    <edge source="3" target="36" id="0" />
-    <edge source="3" target="19" id="0" />
-    <edge source="3" target="47" id="0" />
-    <edge source="3" target="29" id="0" />
-    <edge source="3" target="50" id="0" />
-    <edge source="3" target="10" id="0" />
-    <edge source="3" target="39" id="0" />
+    <edge source="3" target="37" id="0" />
+    <edge source="3" target="42" id="0" />
+    <edge source="3" target="16" id="0" />
+    <edge source="3" target="45" id="0" />
+    <edge source="3" target="40" id="0" />
+    <edge source="3" target="33" id="0" />
+    <edge source="3" target="38" id="0" />
     <edge source="3" target="38" id="535">
       <data key="channel_open">--local_amt=100000 --push_amt=50000</data>
       <data key="source_policy"> --base_fee_msat=1000 --fee_rate_ppm=1 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=50000000</data>
       <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=1 --time_lock_delta=80 --min_htlc_msat=1000 --max_htlc_msat=50000000</data>
     </edge>
+    <edge source="3" target="0" id="0" />
     <edge source="4" target="5" id="0" />
-    <edge source="4" target="41" id="0" />
-    <edge source="4" target="21" id="0" />
-    <edge source="4" target="21" id="507">
+    <edge source="4" target="32" id="0" />
+    <edge source="4" target="32" id="511">
       <data key="channel_open">--local_amt=2000000 --push_amt=1000000</data>
-      <data key="source_policy"> --base_fee_msat=100 --fee_rate_ppm=10 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=1000000000</data>
+      <data key="source_policy"> --base_fee_msat=1000 --fee_rate_ppm=90 --time_lock_delta=80 --min_htlc_msat=10000 --max_htlc_msat=1000000000</data>
       <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=10 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=1000000000</data>
     </edge>
-    <edge source="4" target="22" id="0" />
-    <edge source="4" target="22" id="510">
+    <edge source="4" target="39" id="0" />
+    <edge source="4" target="33" id="0" />
+    <edge source="4" target="50" id="0" />
+    <edge source="4" target="20" id="0" />
+    <edge source="4" target="1" id="0" />
+    <edge source="4" target="18" id="0" />
+    <edge source="4" target="13" id="0" />
+    <edge source="4" target="13" id="513">
       <data key="channel_open">--local_amt=2000000 --push_amt=1000000</data>
       <data key="source_policy"> --base_fee_msat=1000 --fee_rate_ppm=10 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=1000000000</data>
-      <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=2000 --time_lock_delta=222 --min_htlc_msat=1000 --max_htlc_msat=1000000000</data>
+      <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=1 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=1000000000</data>
     </edge>
-    <edge source="4" target="36" id="0" />
-    <edge source="4" target="40" id="0" />
-    <edge source="4" target="10" id="0" />
-    <edge source="4" target="0" id="0" />
-    <edge source="4" target="6" id="0" />
     <edge source="4" target="24" id="503">
       <data key="channel_open">--local_amt=2000000 --push_amt=1000000</data>
       <data key="source_policy"> --base_fee_msat=1000 --fee_rate_ppm=1000 --time_lock_delta=80 --min_htlc_msat=1000 --max_htlc_msat=1000000000</data>
@@ -728,25 +728,25 @@
       <data key="source_policy"> --base_fee_msat=0 --fee_rate_ppm=499 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=1000000000</data>
       <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=10 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=1000000000</data>
     </edge>
+    <edge source="4" target="21" id="507">
+      <data key="channel_open">--local_amt=2000000 --push_amt=1000000</data>
+      <data key="source_policy"> --base_fee_msat=100 --fee_rate_ppm=10 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=1000000000</data>
+      <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=10 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=1000000000</data>
+    </edge>
     <edge source="4" target="48" id="508">
       <data key="channel_open">--local_amt=2000000 --push_amt=1000000</data>
       <data key="source_policy"> --base_fee_msat=1000 --fee_rate_ppm=1 --time_lock_delta=80 --min_htlc_msat=1000 --max_htlc_msat=1000000000</data>
       <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=10 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=1000000000</data>
     </edge>
-    <edge source="4" target="32" id="511">
+    <edge source="4" target="22" id="510">
       <data key="channel_open">--local_amt=2000000 --push_amt=1000000</data>
-      <data key="source_policy"> --base_fee_msat=1000 --fee_rate_ppm=90 --time_lock_delta=80 --min_htlc_msat=10000 --max_htlc_msat=1000000000</data>
-      <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=10 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=1000000000</data>
+      <data key="source_policy"> --base_fee_msat=1000 --fee_rate_ppm=10 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=1000000000</data>
+      <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=2000 --time_lock_delta=222 --min_htlc_msat=1000 --max_htlc_msat=1000000000</data>
     </edge>
     <edge source="4" target="7" id="512">
       <data key="channel_open">--local_amt=2000000 --push_amt=1000000</data>
       <data key="source_policy"> --base_fee_msat=1000 --fee_rate_ppm=1 --time_lock_delta=80 --min_htlc_msat=1000 --max_htlc_msat=1000000000</data>
       <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=10 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=1000000000</data>
-    </edge>
-    <edge source="4" target="13" id="513">
-      <data key="channel_open">--local_amt=2000000 --push_amt=1000000</data>
-      <data key="source_policy"> --base_fee_msat=1000 --fee_rate_ppm=10 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=1000000000</data>
-      <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=1 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=1000000000</data>
     </edge>
     <edge source="4" target="31" id="532">
       <data key="channel_open">--local_amt=3000000 --push_amt=1500000</data>
@@ -754,14 +754,19 @@
       <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=1 --time_lock_delta=80 --min_htlc_msat=1000 --max_htlc_msat=1500000000</data>
     </edge>
     <edge source="5" target="6" id="0" />
-    <edge source="5" target="27" id="0" />
-    <edge source="5" target="1" id="0" />
-    <edge source="5" target="17" id="0" />
-    <edge source="5" target="30" id="0" />
-    <edge source="5" target="46" id="0" />
+    <edge source="5" target="37" id="0" />
     <edge source="5" target="31" id="0" />
-    <edge source="5" target="41" id="0" />
-    <edge source="5" target="33" id="0" />
+    <edge source="5" target="46" id="0" />
+    <edge source="5" target="20" id="0" />
+    <edge source="5" target="20" id="542">
+      <data key="channel_open">--local_amt=16770000 --push_amt=8385000</data>
+      <data key="source_policy"> --base_fee_msat=2147483647 --fee_rate_ppm=2147483647 --time_lock_delta=72 --min_htlc_msat=1 --max_htlc_msat=8385000000</data>
+      <data key="target_policy"> --base_fee_msat=0 --fee_rate_ppm=500 --time_lock_delta=80 --min_htlc_msat=1000 --max_htlc_msat=8385000000</data>
+    </edge>
+    <edge source="5" target="26" id="0" />
+    <edge source="5" target="19" id="0" />
+    <edge source="5" target="13" id="0" />
+    <edge source="5" target="7" id="0" />
     <edge source="5" target="24" id="531">
       <data key="channel_open">--local_amt=25000000 --push_amt=12500000</data>
       <data key="source_policy"> --base_fee_msat=1000 --fee_rate_ppm=1000 --time_lock_delta=80 --min_htlc_msat=1000 --max_htlc_msat=12500000000</data>
@@ -787,34 +792,29 @@
       <data key="source_policy"> --base_fee_msat=2147483647 --fee_rate_ppm=2147483647 --time_lock_delta=72 --min_htlc_msat=1 --max_htlc_msat=8385000000</data>
       <data key="target_policy"> --base_fee_msat=0 --fee_rate_ppm=500 --time_lock_delta=80 --min_htlc_msat=1000 --max_htlc_msat=8385000000</data>
     </edge>
-    <edge source="5" target="20" id="542">
-      <data key="channel_open">--local_amt=16770000 --push_amt=8385000</data>
-      <data key="source_policy"> --base_fee_msat=2147483647 --fee_rate_ppm=2147483647 --time_lock_delta=72 --min_htlc_msat=1 --max_htlc_msat=8385000000</data>
-      <data key="target_policy"> --base_fee_msat=0 --fee_rate_ppm=500 --time_lock_delta=80 --min_htlc_msat=1000 --max_htlc_msat=8385000000</data>
-    </edge>
     <edge source="6" target="7" id="0" />
-    <edge source="6" target="14" id="0" />
+    <edge source="6" target="10" id="0" />
+    <edge source="6" target="15" id="0" />
+    <edge source="6" target="31" id="0" />
+    <edge source="6" target="27" id="0" />
+    <edge source="6" target="17" id="0" />
+    <edge source="6" target="20" id="0" />
+    <edge source="6" target="33" id="0" />
+    <edge source="6" target="39" id="0" />
     <edge source="6" target="14" id="487">
       <data key="channel_open">--local_amt=500000 --push_amt=250000</data>
       <data key="source_policy"> --base_fee_msat=0 --fee_rate_ppm=50 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=250000000</data>
       <data key="target_policy"> --base_fee_msat=500 --fee_rate_ppm=300 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=250000000</data>
     </edge>
-    <edge source="6" target="8" id="0" />
-    <edge source="6" target="39" id="0" />
-    <edge source="6" target="18" id="0" />
-    <edge source="6" target="31" id="0" />
-    <edge source="6" target="23" id="0" />
-    <edge source="6" target="20" id="0" />
-    <edge source="6" target="36" id="0" />
     <edge source="7" target="8" id="0" />
-    <edge source="7" target="40" id="0" />
-    <edge source="7" target="23" id="0" />
-    <edge source="7" target="30" id="0" />
-    <edge source="7" target="11" id="0" />
-    <edge source="7" target="29" id="0" />
-    <edge source="7" target="37" id="0" />
-    <edge source="7" target="1" id="0" />
-    <edge source="7" target="47" id="0" />
+    <edge source="7" target="41" id="0" />
+    <edge source="7" target="14" id="0" />
+    <edge source="7" target="31" id="0" />
+    <edge source="7" target="22" id="0" />
+    <edge source="7" target="42" id="0" />
+    <edge source="7" target="26" id="0" />
+    <edge source="7" target="50" id="0" />
+    <edge source="7" target="33" id="0" />
     <edge source="7" target="49" id="514">
       <data key="channel_open">--local_amt=10000000 --push_amt=5000000</data>
       <data key="source_policy"> --base_fee_msat=2000 --fee_rate_ppm=2500 --time_lock_delta=140 --min_htlc_msat=100 --max_htlc_msat=5000000000</data>
@@ -826,23 +826,23 @@
       <data key="target_policy"> --base_fee_msat=0 --fee_rate_ppm=500 --time_lock_delta=80 --min_htlc_msat=1000 --max_htlc_msat=3355334000</data>
     </edge>
     <edge source="8" target="9" id="0" />
-    <edge source="8" target="15" id="0" />
-    <edge source="8" target="18" id="0" />
-    <edge source="8" target="21" id="0" />
-    <edge source="8" target="32" id="0" />
-    <edge source="8" target="32" id="474">
-      <data key="channel_open">--local_amt=2000000 --push_amt=1000000</data>
-      <data key="source_policy"> --base_fee_msat=1000 --fee_rate_ppm=90 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=1000000000</data>
-      <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=90 --time_lock_delta=40 --min_htlc_msat=10000 --max_htlc_msat=1000000000</data>
-    </edge>
+    <edge source="8" target="5" id="0" />
     <edge source="8" target="29" id="0" />
-    <edge source="8" target="38" id="0" />
-    <edge source="8" target="47" id="0" />
-    <edge source="8" target="41" id="0" />
+    <edge source="8" target="42" id="0" />
+    <edge source="8" target="33" id="0" />
+    <edge source="8" target="46" id="0" />
+    <edge source="8" target="37" id="0" />
+    <edge source="8" target="14" id="0" />
+    <edge source="8" target="3" id="0" />
     <edge source="8" target="44" id="473">
       <data key="channel_open">--local_amt=1500000 --push_amt=750000</data>
       <data key="source_policy"> --base_fee_msat=1000 --fee_rate_ppm=499 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=750000000</data>
       <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=499 --time_lock_delta=144 --min_htlc_msat=1 --max_htlc_msat=750000000</data>
+    </edge>
+    <edge source="8" target="32" id="474">
+      <data key="channel_open">--local_amt=2000000 --push_amt=1000000</data>
+      <data key="source_policy"> --base_fee_msat=1000 --fee_rate_ppm=90 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=1000000000</data>
+      <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=90 --time_lock_delta=40 --min_htlc_msat=10000 --max_htlc_msat=1000000000</data>
     </edge>
     <edge source="8" target="22" id="480">
       <data key="channel_open">--local_amt=1620000 --push_amt=810000</data>
@@ -855,33 +855,33 @@
       <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=1 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=500000000</data>
     </edge>
     <edge source="9" target="10" id="0" />
-    <edge source="9" target="50" id="0" />
-    <edge source="9" target="16" id="0" />
     <edge source="9" target="41" id="0" />
-    <edge source="9" target="33" id="0" />
+    <edge source="9" target="46" id="0" />
+    <edge source="9" target="26" id="0" />
+    <edge source="9" target="23" id="0" />
     <edge source="9" target="15" id="0" />
-    <edge source="9" target="32" id="0" />
-    <edge source="9" target="45" id="0" />
-    <edge source="9" target="37" id="0" />
+    <edge source="9" target="38" id="0" />
+    <edge source="9" target="17" id="0" />
+    <edge source="9" target="5" id="0" />
     <edge source="9" target="48" id="477">
       <data key="channel_open">--local_amt=90000 --push_amt=45000</data>
       <data key="source_policy"> --base_fee_msat=0 --fee_rate_ppm=1 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=45000000</data>
       <data key="target_policy"> --base_fee_msat=0 --fee_rate_ppm=1 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=45000000</data>
     </edge>
     <edge source="10" target="11" id="0" />
-    <edge source="10" target="32" id="0" />
-    <edge source="10" target="1" id="0" />
-    <edge source="10" target="48" id="0" />
+    <edge source="10" target="22" id="0" />
+    <edge source="10" target="45" id="0" />
+    <edge source="10" target="37" id="0" />
+    <edge source="10" target="35" id="0" />
+    <edge source="10" target="8" id="0" />
+    <edge source="10" target="31" id="0" />
+    <edge source="10" target="12" id="0" />
+    <edge source="10" target="13" id="0" />
     <edge source="10" target="48" id="476">
       <data key="channel_open">--local_amt=80000 --push_amt=40000</data>
       <data key="source_policy"> --base_fee_msat=1000 --fee_rate_ppm=1 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=40000000</data>
       <data key="target_policy"> --base_fee_msat=0 --fee_rate_ppm=1 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=40000000</data>
     </edge>
-    <edge source="10" target="49" id="0" />
-    <edge source="10" target="15" id="0" />
-    <edge source="10" target="50" id="0" />
-    <edge source="10" target="38" id="0" />
-    <edge source="10" target="12" id="0" />
     <edge source="10" target="17" id="498">
       <data key="channel_open">--local_amt=80000 --push_amt=40000</data>
       <data key="source_policy"> --base_fee_msat=1000 --fee_rate_ppm=1 --time_lock_delta=80 --min_htlc_msat=1000 --max_htlc_msat=40000000</data>
@@ -893,33 +893,33 @@
       <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=1 --time_lock_delta=80 --min_htlc_msat=1000 --max_htlc_msat=12319000</data>
     </edge>
     <edge source="11" target="12" id="0" />
-    <edge source="11" target="48" id="0" />
+    <edge source="11" target="46" id="0" />
+    <edge source="11" target="7" id="0" />
+    <edge source="11" target="26" id="0" />
+    <edge source="11" target="34" id="0" />
+    <edge source="11" target="14" id="0" />
+    <edge source="11" target="3" id="0" />
+    <edge source="11" target="0" id="0" />
     <edge source="11" target="45" id="0" />
     <edge source="11" target="45" id="530">
       <data key="channel_open">--local_amt=500000 --push_amt=250000</data>
       <data key="source_policy"> --base_fee_msat=1000 --fee_rate_ppm=100 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=250000000</data>
       <data key="target_policy"> --base_fee_msat=0 --fee_rate_ppm=30 --time_lock_delta=80 --min_htlc_msat=1000 --max_htlc_msat=250000000</data>
     </edge>
-    <edge source="11" target="9" id="0" />
-    <edge source="11" target="17" id="0" />
-    <edge source="11" target="34" id="0" />
-    <edge source="11" target="26" id="0" />
-    <edge source="11" target="44" id="0" />
-    <edge source="11" target="1" id="0" />
     <edge source="11" target="33" id="526">
       <data key="channel_open">--local_amt=500000 --push_amt=250000</data>
       <data key="source_policy"> --base_fee_msat=1000 --fee_rate_ppm=167 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=250000000</data>
       <data key="target_policy"> --base_fee_msat=100 --fee_rate_ppm=100 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=250000000</data>
     </edge>
     <edge source="12" target="13" id="0" />
-    <edge source="12" target="34" id="0" />
-    <edge source="12" target="7" id="0" />
-    <edge source="12" target="43" id="0" />
-    <edge source="12" target="36" id="0" />
+    <edge source="12" target="32" id="0" />
+    <edge source="12" target="2" id="0" />
+    <edge source="12" target="37" id="0" />
     <edge source="12" target="33" id="0" />
-    <edge source="12" target="26" id="0" />
-    <edge source="12" target="16" id="0" />
+    <edge source="12" target="21" id="0" />
+    <edge source="12" target="25" id="0" />
     <edge source="12" target="18" id="0" />
+    <edge source="12" target="14" id="0" />
     <edge source="12" target="23" id="470">
       <data key="channel_open">--local_amt=250000 --push_amt=125000</data>
       <data key="source_policy"> --base_fee_msat=1000 --fee_rate_ppm=1000 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=125000000</data>
@@ -931,14 +931,14 @@
       <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=1 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=1000000000</data>
     </edge>
     <edge source="13" target="14" id="0" />
-    <edge source="13" target="45" id="0" />
-    <edge source="13" target="34" id="0" />
-    <edge source="13" target="28" id="0" />
-    <edge source="13" target="25" id="0" />
-    <edge source="13" target="44" id="0" />
-    <edge source="13" target="16" id="0" />
+    <edge source="13" target="48" id="0" />
+    <edge source="13" target="8" id="0" />
+    <edge source="13" target="20" id="0" />
+    <edge source="13" target="30" id="0" />
+    <edge source="13" target="6" id="0" />
+    <edge source="13" target="0" id="0" />
     <edge source="13" target="33" id="0" />
-    <edge source="13" target="7" id="0" />
+    <edge source="13" target="24" id="0" />
     <edge source="13" target="21" id="493">
       <data key="channel_open">--local_amt=100000 --push_amt=50000</data>
       <data key="source_policy"> --base_fee_msat=0 --fee_rate_ppm=1 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=50000000</data>
@@ -950,28 +950,28 @@
       <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=1 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=50000000</data>
     </edge>
     <edge source="14" target="15" id="0" />
-    <edge source="14" target="26" id="0" />
-    <edge source="14" target="43" id="0" />
-    <edge source="14" target="8" id="0" />
-    <edge source="14" target="0" id="0" />
+    <edge source="14" target="6" id="0" />
+    <edge source="14" target="45" id="0" />
     <edge source="14" target="17" id="0" />
-    <edge source="14" target="10" id="0" />
-    <edge source="14" target="20" id="0" />
-    <edge source="14" target="33" id="0" />
+    <edge source="14" target="9" id="0" />
+    <edge source="14" target="19" id="0" />
+    <edge source="14" target="38" id="0" />
+    <edge source="14" target="25" id="0" />
+    <edge source="14" target="31" id="0" />
     <edge source="14" target="18" id="486">
       <data key="channel_open">--local_amt=5000223 --push_amt=2500111</data>
       <data key="source_policy"> --base_fee_msat=500 --fee_rate_ppm=0 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=2500111000</data>
       <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=1 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=2500111000</data>
     </edge>
     <edge source="15" target="16" id="0" />
-    <edge source="15" target="42" id="0" />
-    <edge source="15" target="25" id="0" />
-    <edge source="15" target="22" id="0" />
-    <edge source="15" target="48" id="0" />
     <edge source="15" target="32" id="0" />
+    <edge source="15" target="45" id="0" />
+    <edge source="15" target="25" id="0" />
+    <edge source="15" target="44" id="0" />
+    <edge source="15" target="50" id="0" />
+    <edge source="15" target="31" id="0" />
     <edge source="15" target="5" id="0" />
-    <edge source="15" target="2" id="0" />
-    <edge source="15" target="37" id="0" />
+    <edge source="15" target="17" id="0" />
     <edge source="15" target="49" id="539">
       <data key="channel_open">--local_amt=16770000 --push_amt=8385000</data>
       <data key="source_policy"> --base_fee_msat=2000 --fee_rate_ppm=2500 --time_lock_delta=140 --min_htlc_msat=100 --max_htlc_msat=8385000000</data>
@@ -983,33 +983,33 @@
       <data key="target_policy"> --base_fee_msat=2147483647 --fee_rate_ppm=2147483647 --time_lock_delta=72 --min_htlc_msat=1000 --max_htlc_msat=8385000000</data>
     </edge>
     <edge source="16" target="17" id="0" />
-    <edge source="16" target="27" id="0" />
-    <edge source="16" target="25" id="0" />
+    <edge source="16" target="34" id="0" />
+    <edge source="16" target="11" id="0" />
+    <edge source="16" target="28" id="0" />
+    <edge source="16" target="43" id="0" />
+    <edge source="16" target="0" id="0" />
+    <edge source="16" target="31" id="0" />
+    <edge source="16" target="5" id="0" />
     <edge source="16" target="14" id="0" />
-    <edge source="16" target="33" id="0" />
-    <edge source="16" target="33" id="525">
-      <data key="channel_open">--local_amt=500000 --push_amt=250000</data>
-      <data key="source_policy"> --base_fee_msat=100 --fee_rate_ppm=1 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=250000000</data>
-      <data key="target_policy"> --base_fee_msat=100 --fee_rate_ppm=100 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=250000000</data>
-    </edge>
-    <edge source="16" target="38" id="0" />
-    <edge source="16" target="26" id="0" />
-    <edge source="16" target="30" id="0" />
-    <edge source="16" target="8" id="0" />
     <edge source="16" target="41" id="469">
       <data key="channel_open">--local_amt=100000 --push_amt=50000</data>
       <data key="source_policy"> --base_fee_msat=0 --fee_rate_ppm=20 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=50000000</data>
       <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=10 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=50000000</data>
     </edge>
+    <edge source="16" target="33" id="525">
+      <data key="channel_open">--local_amt=500000 --push_amt=250000</data>
+      <data key="source_policy"> --base_fee_msat=100 --fee_rate_ppm=1 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=250000000</data>
+      <data key="target_policy"> --base_fee_msat=100 --fee_rate_ppm=100 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=250000000</data>
+    </edge>
     <edge source="17" target="18" id="0" />
-    <edge source="17" target="39" id="0" />
-    <edge source="17" target="29" id="0" />
-    <edge source="17" target="45" id="0" />
-    <edge source="17" target="20" id="0" />
-    <edge source="17" target="41" id="0" />
-    <edge source="17" target="22" id="0" />
-    <edge source="17" target="23" id="0" />
-    <edge source="17" target="12" id="0" />
+    <edge source="17" target="25" id="0" />
+    <edge source="17" target="34" id="0" />
+    <edge source="17" target="26" id="0" />
+    <edge source="17" target="8" id="0" />
+    <edge source="17" target="36" id="0" />
+    <edge source="17" target="11" id="0" />
+    <edge source="17" target="48" id="0" />
+    <edge source="17" target="27" id="0" />
     <edge source="18" target="19" id="0" />
     <edge source="18" target="19" id="467">
       <data key="channel_open">--local_amt=1000000 --push_amt=500000</data>
@@ -1022,107 +1022,112 @@
       <data key="source_policy"> --base_fee_msat=1000 --fee_rate_ppm=1 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=25000000000</data>
       <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=499 --time_lock_delta=144 --min_htlc_msat=1 --max_htlc_msat=25000000000</data>
     </edge>
-    <edge source="18" target="40" id="0" />
-    <edge source="18" target="28" id="0" />
+    <edge source="18" target="14" id="0" />
+    <edge source="18" target="0" id="0" />
+    <edge source="18" target="50" id="0" />
+    <edge source="18" target="32" id="0" />
+    <edge source="18" target="3" id="0" />
+    <edge source="18" target="42" id="0" />
+    <edge source="18" target="36" id="0" />
     <edge source="18" target="28" id="472">
       <data key="channel_open">--local_amt=1000000 --push_amt=500000</data>
       <data key="source_policy"> --base_fee_msat=0 --fee_rate_ppm=750 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=500000000</data>
       <data key="target_policy"> --base_fee_msat=200 --fee_rate_ppm=200 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=500000000</data>
     </edge>
-    <edge source="18" target="30" id="0" />
-    <edge source="18" target="9" id="0" />
-    <edge source="18" target="14" id="0" />
-    <edge source="18" target="2" id="0" />
-    <edge source="18" target="29" id="0" />
     <edge source="19" target="20" id="0" />
-    <edge source="19" target="14" id="0" />
     <edge source="19" target="50" id="0" />
-    <edge source="19" target="29" id="0" />
+    <edge source="19" target="3" id="0" />
+    <edge source="19" target="2" id="0" />
     <edge source="19" target="27" id="0" />
     <edge source="19" target="25" id="0" />
-    <edge source="19" target="8" id="0" />
-    <edge source="19" target="16" id="0" />
-    <edge source="19" target="46" id="0" />
+    <edge source="19" target="34" id="0" />
+    <edge source="19" target="44" id="0" />
+    <edge source="19" target="26" id="0" />
     <edge source="19" target="23" id="466">
       <data key="channel_open">--local_amt=250000 --push_amt=125000</data>
       <data key="source_policy"> --base_fee_msat=1000 --fee_rate_ppm=1000 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=125000000</data>
       <data key="target_policy"> --base_fee_msat=500 --fee_rate_ppm=100 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=125000000</data>
     </edge>
     <edge source="20" target="21" id="0" />
-    <edge source="20" target="25" id="0" />
-    <edge source="20" target="22" id="0" />
-    <edge source="20" target="28" id="0" />
-    <edge source="20" target="11" id="0" />
-    <edge source="20" target="44" id="0" />
-    <edge source="20" target="2" id="0" />
-    <edge source="20" target="48" id="0" />
-    <edge source="20" target="5" id="0" />
+    <edge source="20" target="0" id="0" />
+    <edge source="20" target="12" id="0" />
+    <edge source="20" target="10" id="0" />
+    <edge source="20" target="46" id="0" />
+    <edge source="20" target="41" id="0" />
+    <edge source="20" target="27" id="0" />
+    <edge source="20" target="38" id="0" />
+    <edge source="20" target="30" id="0" />
     <edge source="20" target="49" id="538">
       <data key="channel_open">--local_amt=16770000 --push_amt=8385000</data>
       <data key="source_policy"> --base_fee_msat=2147483647 --fee_rate_ppm=2147483647 --time_lock_delta=72 --min_htlc_msat=1000 --max_htlc_msat=8385000000</data>
       <data key="target_policy"> --base_fee_msat=2000 --fee_rate_ppm=2500 --time_lock_delta=140 --min_htlc_msat=100 --max_htlc_msat=8385000000</data>
     </edge>
     <edge source="21" target="22" id="0" />
+    <edge source="21" target="39" id="0" />
+    <edge source="21" target="45" id="0" />
+    <edge source="21" target="13" id="0" />
     <edge source="21" target="50" id="0" />
-    <edge source="21" target="6" id="0" />
-    <edge source="21" target="31" id="0" />
     <edge source="21" target="18" id="0" />
-    <edge source="21" target="37" id="0" />
-    <edge source="21" target="1" id="0" />
-    <edge source="21" target="7" id="0" />
-    <edge source="21" target="9" id="0" />
+    <edge source="21" target="11" id="0" />
+    <edge source="21" target="26" id="0" />
+    <edge source="21" target="8" id="0" />
     <edge source="21" target="40" id="521">
       <data key="channel_open">--local_amt=40000 --push_amt=20000</data>
       <data key="source_policy"> --base_fee_msat=100 --fee_rate_ppm=10 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=20000000</data>
       <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=1 --time_lock_delta=80 --min_htlc_msat=1000 --max_htlc_msat=20000000</data>
     </edge>
     <edge source="22" target="23" id="0" />
-    <edge source="22" target="31" id="0" />
-    <edge source="22" target="31" id="499">
-      <data key="channel_open">--local_amt=84803717 --push_amt=42401858</data>
-      <data key="source_policy"> --base_fee_msat=500 --fee_rate_ppm=1000 --time_lock_delta=144 --min_htlc_msat=1000 --max_htlc_msat=42401858000</data>
-      <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=2000 --time_lock_delta=222 --min_htlc_msat=1000 --max_htlc_msat=42401858000</data>
-    </edge>
-    <edge source="22" target="42" id="0" />
-    <edge source="22" target="42" id="509">
-      <data key="channel_open">--local_amt=1000000 --push_amt=500000</data>
-      <data key="source_policy"> --base_fee_msat=2000 --fee_rate_ppm=2500 --time_lock_delta=140 --min_htlc_msat=100 --max_htlc_msat=500000000</data>
-      <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=2000 --time_lock_delta=222 --min_htlc_msat=1000 --max_htlc_msat=500000000</data>
-    </edge>
+    <edge source="22" target="38" id="0" />
+    <edge source="22" target="24" id="0" />
+    <edge source="22" target="11" id="0" />
+    <edge source="22" target="35" id="0" />
     <edge source="22" target="44" id="0" />
     <edge source="22" target="44" id="523">
       <data key="channel_open">--local_amt=100000000 --push_amt=50000000</data>
       <data key="source_policy"> --base_fee_msat=1000 --fee_rate_ppm=999 --time_lock_delta=144 --min_htlc_msat=1 --max_htlc_msat=50000000000</data>
       <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=2000 --time_lock_delta=222 --min_htlc_msat=1000 --max_htlc_msat=50000000000</data>
     </edge>
-    <edge source="22" target="47" id="0" />
+    <edge source="22" target="49" id="0" />
+    <edge source="22" target="16" id="0" />
+    <edge source="22" target="18" id="0" />
     <edge source="22" target="47" id="494">
       <data key="channel_open">--local_amt=3000000 --push_amt=1500000</data>
       <data key="source_policy"> --base_fee_msat=0 --fee_rate_ppm=159 --time_lock_delta=80 --min_htlc_msat=1000 --max_htlc_msat=1500000000</data>
       <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=2000 --time_lock_delta=222 --min_htlc_msat=1000 --max_htlc_msat=1500000000</data>
     </edge>
-    <edge source="22" target="38" id="0" />
-    <edge source="22" target="41" id="0" />
-    <edge source="22" target="25" id="0" />
-    <edge source="22" target="18" id="0" />
+    <edge source="22" target="31" id="499">
+      <data key="channel_open">--local_amt=84803717 --push_amt=42401858</data>
+      <data key="source_policy"> --base_fee_msat=500 --fee_rate_ppm=1000 --time_lock_delta=144 --min_htlc_msat=1000 --max_htlc_msat=42401858000</data>
+      <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=2000 --time_lock_delta=222 --min_htlc_msat=1000 --max_htlc_msat=42401858000</data>
+    </edge>
+    <edge source="22" target="42" id="509">
+      <data key="channel_open">--local_amt=1000000 --push_amt=500000</data>
+      <data key="source_policy"> --base_fee_msat=2000 --fee_rate_ppm=2500 --time_lock_delta=140 --min_htlc_msat=100 --max_htlc_msat=500000000</data>
+      <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=2000 --time_lock_delta=222 --min_htlc_msat=1000 --max_htlc_msat=500000000</data>
+    </edge>
     <edge source="23" target="24" id="0" />
-    <edge source="23" target="33" id="0" />
-    <edge source="23" target="5" id="0" />
-    <edge source="23" target="4" id="0" />
-    <edge source="23" target="47" id="0" />
-    <edge source="23" target="38" id="0" />
-    <edge source="23" target="21" id="0" />
-    <edge source="23" target="36" id="0" />
+    <edge source="23" target="31" id="0" />
+    <edge source="23" target="27" id="0" />
+    <edge source="23" target="17" id="0" />
+    <edge source="23" target="25" id="0" />
+    <edge source="23" target="42" id="0" />
+    <edge source="23" target="12" id="0" />
     <edge source="23" target="3" id="0" />
+    <edge source="23" target="11" id="0" />
     <edge source="24" target="25" id="0" />
-    <edge source="24" target="31" id="0" />
-    <edge source="24" target="39" id="0" />
-    <edge source="24" target="43" id="0" />
-    <edge source="24" target="8" id="0" />
-    <edge source="24" target="28" id="0" />
-    <edge source="24" target="30" id="0" />
-    <edge source="24" target="5" id="0" />
-    <edge source="24" target="32" id="0" />
+    <edge source="24" target="9" id="0" />
+    <edge source="24" target="47" id="0" />
+    <edge source="24" target="49" id="0" />
+    <edge source="24" target="12" id="0" />
+    <edge source="24" target="2" id="0" />
+    <edge source="24" target="14" id="0" />
+    <edge source="24" target="3" id="0" />
+    <edge source="24" target="44" id="0" />
+    <edge source="24" target="44" id="518">
+      <data key="channel_open">--local_amt=100000000 --push_amt=50000000</data>
+      <data key="source_policy"> --base_fee_msat=1000 --fee_rate_ppm=1000 --time_lock_delta=80 --min_htlc_msat=1000 --max_htlc_msat=50000000000</data>
+      <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=499 --time_lock_delta=144 --min_htlc_msat=1000 --max_htlc_msat=50000000000</data>
+    </edge>
     <edge source="24" target="42" id="465">
       <data key="channel_open">--local_amt=2000000 --push_amt=1000000</data>
       <data key="source_policy"> --base_fee_msat=1000 --fee_rate_ppm=1700 --time_lock_delta=37 --min_htlc_msat=1000 --max_htlc_msat=1000000000</data>
@@ -1133,20 +1138,15 @@
       <data key="source_policy"> --base_fee_msat=1000 --fee_rate_ppm=1000 --time_lock_delta=80 --min_htlc_msat=1000 --max_htlc_msat=275000000</data>
       <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=1 --time_lock_delta=80 --min_htlc_msat=1000 --max_htlc_msat=275000000</data>
     </edge>
-    <edge source="24" target="44" id="518">
-      <data key="channel_open">--local_amt=100000000 --push_amt=50000000</data>
-      <data key="source_policy"> --base_fee_msat=1000 --fee_rate_ppm=1000 --time_lock_delta=80 --min_htlc_msat=1000 --max_htlc_msat=50000000000</data>
-      <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=499 --time_lock_delta=144 --min_htlc_msat=1000 --max_htlc_msat=50000000000</data>
-    </edge>
     <edge source="25" target="26" id="0" />
-    <edge source="25" target="45" id="0" />
+    <edge source="25" target="31" id="0" />
+    <edge source="25" target="37" id="0" />
     <edge source="25" target="11" id="0" />
+    <edge source="25" target="49" id="0" />
+    <edge source="25" target="21" id="0" />
     <edge source="25" target="8" id="0" />
-    <edge source="25" target="17" id="0" />
+    <edge source="25" target="4" id="0" />
     <edge source="25" target="5" id="0" />
-    <edge source="25" target="41" id="0" />
-    <edge source="25" target="43" id="0" />
-    <edge source="25" target="36" id="0" />
     <edge source="25" target="34" id="516">
       <data key="channel_open">--local_amt=2000000 --push_amt=1000000</data>
       <data key="source_policy"> --base_fee_msat=1000 --fee_rate_ppm=1 --time_lock_delta=80 --min_htlc_msat=1000 --max_htlc_msat=1000000000</data>
@@ -1158,74 +1158,74 @@
       <data key="source_policy"> --base_fee_msat=0 --fee_rate_ppm=50 --time_lock_delta=80 --min_htlc_msat=1000 --max_htlc_msat=25000000</data>
       <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=1 --time_lock_delta=80 --min_htlc_msat=1000 --max_htlc_msat=25000000</data>
     </edge>
-    <edge source="26" target="43" id="0" />
-    <edge source="26" target="33" id="0" />
-    <edge source="26" target="32" id="0" />
-    <edge source="26" target="29" id="0" />
-    <edge source="26" target="44" id="0" />
-    <edge source="26" target="9" id="0" />
-    <edge source="26" target="37" id="0" />
-    <edge source="26" target="5" id="0" />
+    <edge source="26" target="1" id="0" />
+    <edge source="26" target="14" id="0" />
+    <edge source="26" target="42" id="0" />
+    <edge source="26" target="10" id="0" />
+    <edge source="26" target="0" id="0" />
+    <edge source="26" target="50" id="0" />
+    <edge source="26" target="46" id="0" />
+    <edge source="26" target="13" id="0" />
     <edge source="27" target="28" id="0" />
-    <edge source="27" target="42" id="0" />
-    <edge source="27" target="23" id="0" />
-    <edge source="27" target="38" id="0" />
-    <edge source="27" target="49" id="0" />
-    <edge source="27" target="15" id="0" />
-    <edge source="27" target="33" id="0" />
-    <edge source="27" target="40" id="0" />
+    <edge source="27" target="37" id="0" />
     <edge source="27" target="22" id="0" />
+    <edge source="27" target="48" id="0" />
+    <edge source="27" target="24" id="0" />
+    <edge source="27" target="31" id="0" />
+    <edge source="27" target="9" id="0" />
+    <edge source="27" target="2" id="0" />
+    <edge source="27" target="25" id="0" />
     <edge source="27" target="41" id="468">
       <data key="channel_open">--local_amt=100000 --push_amt=50000</data>
       <data key="source_policy"> --base_fee_msat=1 --fee_rate_ppm=100 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=50000000</data>
       <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=10 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=50000000</data>
     </edge>
     <edge source="28" target="29" id="0" />
-    <edge source="28" target="19" id="0" />
-    <edge source="28" target="5" id="0" />
-    <edge source="28" target="16" id="0" />
-    <edge source="28" target="50" id="0" />
+    <edge source="28" target="37" id="0" />
+    <edge source="28" target="20" id="0" />
+    <edge source="28" target="22" id="0" />
+    <edge source="28" target="23" id="0" />
     <edge source="28" target="14" id="0" />
-    <edge source="28" target="31" id="0" />
-    <edge source="28" target="26" id="0" />
-    <edge source="28" target="36" id="0" />
+    <edge source="28" target="10" id="0" />
+    <edge source="28" target="38" id="0" />
+    <edge source="28" target="8" id="0" />
     <edge source="29" target="30" id="0" />
-    <edge source="29" target="46" id="0" />
-    <edge source="29" target="31" id="0" />
-    <edge source="29" target="31" id="491">
-      <data key="channel_open">--local_amt=1100000 --push_amt=550000</data>
-      <data key="source_policy"> --base_fee_msat=500 --fee_rate_ppm=2000 --time_lock_delta=200 --min_htlc_msat=1000 --max_htlc_msat=550000000</data>
-      <data key="target_policy"> --base_fee_msat=0 --fee_rate_ppm=1 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=550000000</data>
-    </edge>
-    <edge source="29" target="9" id="0" />
-    <edge source="29" target="27" id="0" />
-    <edge source="29" target="38" id="0" />
-    <edge source="29" target="39" id="0" />
-    <edge source="29" target="14" id="0" />
-    <edge source="29" target="4" id="0" />
+    <edge source="29" target="7" id="0" />
+    <edge source="29" target="0" id="0" />
+    <edge source="29" target="12" id="0" />
+    <edge source="29" target="37" id="0" />
+    <edge source="29" target="26" id="0" />
+    <edge source="29" target="48" id="0" />
     <edge source="29" target="48" id="475">
       <data key="channel_open">--local_amt=60000 --push_amt=30000</data>
       <data key="source_policy"> --base_fee_msat=0 --fee_rate_ppm=1 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=30000000</data>
       <data key="target_policy"> --base_fee_msat=0 --fee_rate_ppm=100 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=30000000</data>
     </edge>
+    <edge source="29" target="44" id="0" />
+    <edge source="29" target="22" id="0" />
+    <edge source="29" target="31" id="491">
+      <data key="channel_open">--local_amt=1100000 --push_amt=550000</data>
+      <data key="source_policy"> --base_fee_msat=500 --fee_rate_ppm=2000 --time_lock_delta=200 --min_htlc_msat=1000 --max_htlc_msat=550000000</data>
+      <data key="target_policy"> --base_fee_msat=0 --fee_rate_ppm=1 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=550000000</data>
+    </edge>
     <edge source="30" target="31" id="0" />
-    <edge source="30" target="50" id="0" />
-    <edge source="30" target="4" id="0" />
-    <edge source="30" target="33" id="0" />
-    <edge source="30" target="32" id="0" />
-    <edge source="30" target="9" id="0" />
+    <edge source="30" target="26" id="0" />
+    <edge source="30" target="15" id="0" />
+    <edge source="30" target="43" id="0" />
+    <edge source="30" target="1" id="0" />
     <edge source="30" target="41" id="0" />
-    <edge source="30" target="39" id="0" />
-    <edge source="30" target="0" id="0" />
+    <edge source="30" target="32" id="0" />
+    <edge source="30" target="25" id="0" />
+    <edge source="30" target="36" id="0" />
     <edge source="31" target="32" id="0" />
-    <edge source="31" target="15" id="0" />
-    <edge source="31" target="43" id="0" />
-    <edge source="31" target="47" id="0" />
-    <edge source="31" target="26" id="0" />
-    <edge source="31" target="40" id="0" />
+    <edge source="31" target="34" id="0" />
+    <edge source="31" target="4" id="0" />
+    <edge source="31" target="28" id="0" />
+    <edge source="31" target="29" id="0" />
     <edge source="31" target="13" id="0" />
-    <edge source="31" target="11" id="0" />
-    <edge source="31" target="42" id="0" />
+    <edge source="31" target="8" id="0" />
+    <edge source="31" target="3" id="0" />
+    <edge source="31" target="9" id="0" />
     <edge source="31" target="39" id="481">
       <data key="channel_open">--local_amt=3500000 --push_amt=1750000</data>
       <data key="source_policy"> --base_fee_msat=500 --fee_rate_ppm=1000 --time_lock_delta=144 --min_htlc_msat=1000 --max_htlc_msat=1750000000</data>
@@ -1242,65 +1242,65 @@
       <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=499 --time_lock_delta=144 --min_htlc_msat=1 --max_htlc_msat=10000000000</data>
     </edge>
     <edge source="32" target="33" id="0" />
-    <edge source="32" target="41" id="0" />
-    <edge source="32" target="48" id="0" />
-    <edge source="32" target="14" id="0" />
-    <edge source="32" target="36" id="0" />
-    <edge source="32" target="11" id="0" />
-    <edge source="32" target="46" id="0" />
-    <edge source="32" target="18" id="0" />
-    <edge source="32" target="0" id="0" />
+    <edge source="32" target="25" id="0" />
+    <edge source="32" target="26" id="0" />
+    <edge source="32" target="44" id="0" />
     <edge source="32" target="44" id="479">
       <data key="channel_open">--local_amt=1000000 --push_amt=500000</data>
       <data key="source_policy"> --base_fee_msat=1000 --fee_rate_ppm=90 --time_lock_delta=40 --min_htlc_msat=10000 --max_htlc_msat=500000000</data>
       <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=499 --time_lock_delta=144 --min_htlc_msat=1000 --max_htlc_msat=500000000</data>
     </edge>
+    <edge source="32" target="8" id="0" />
+    <edge source="32" target="50" id="0" />
+    <edge source="32" target="11" id="0" />
+    <edge source="32" target="13" id="0" />
+    <edge source="32" target="16" id="0" />
     <edge source="32" target="34" id="483">
       <data key="channel_open">--local_amt=2000000 --push_amt=1000000</data>
       <data key="source_policy"> --base_fee_msat=1000 --fee_rate_ppm=1 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=1000000000</data>
       <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=90 --time_lock_delta=40 --min_htlc_msat=10000 --max_htlc_msat=1000000000</data>
     </edge>
     <edge source="33" target="34" id="0" />
-    <edge source="33" target="37" id="0" />
-    <edge source="33" target="19" id="0" />
-    <edge source="33" target="15" id="0" />
-    <edge source="33" target="20" id="0" />
-    <edge source="33" target="3" id="0" />
-    <edge source="33" target="42" id="0" />
-    <edge source="33" target="17" id="0" />
     <edge source="33" target="45" id="0" />
     <edge source="33" target="45" id="527">
       <data key="channel_open">--local_amt=200000 --push_amt=100000</data>
       <data key="source_policy"> --base_fee_msat=0 --fee_rate_ppm=30 --time_lock_delta=80 --min_htlc_msat=1000 --max_htlc_msat=100000000</data>
       <data key="target_policy"> --base_fee_msat=100 --fee_rate_ppm=100 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=100000000</data>
     </edge>
+    <edge source="33" target="17" id="0" />
+    <edge source="33" target="9" id="0" />
+    <edge source="33" target="18" id="0" />
+    <edge source="33" target="44" id="0" />
+    <edge source="33" target="39" id="0" />
+    <edge source="33" target="37" id="0" />
+    <edge source="33" target="15" id="0" />
     <edge source="34" target="35" id="0" />
-    <edge source="34" target="16" id="0" />
     <edge source="34" target="23" id="0" />
-    <edge source="34" target="49" id="0" />
-    <edge source="34" target="47" id="0" />
-    <edge source="34" target="19" id="0" />
-    <edge source="34" target="28" id="0" />
-    <edge source="34" target="32" id="0" />
-    <edge source="34" target="39" id="0" />
+    <edge source="34" target="9" id="0" />
+    <edge source="34" target="10" id="0" />
+    <edge source="34" target="22" id="0" />
+    <edge source="34" target="7" id="0" />
+    <edge source="34" target="0" id="0" />
+    <edge source="34" target="4" id="0" />
+    <edge source="34" target="46" id="0" />
     <edge source="35" target="36" id="0" />
-    <edge source="35" target="28" id="0" />
-    <edge source="35" target="21" id="0" />
-    <edge source="35" target="16" id="0" />
-    <edge source="35" target="3" id="0" />
-    <edge source="35" target="13" id="0" />
-    <edge source="35" target="12" id="0" />
-    <edge source="35" target="42" id="0" />
-    <edge source="35" target="6" id="0" />
+    <edge source="35" target="37" id="0" />
+    <edge source="35" target="50" id="0" />
+    <edge source="35" target="46" id="0" />
+    <edge source="35" target="24" id="0" />
+    <edge source="35" target="32" id="0" />
+    <edge source="35" target="1" id="0" />
+    <edge source="35" target="8" id="0" />
+    <edge source="35" target="49" id="0" />
     <edge source="36" target="37" id="0" />
-    <edge source="36" target="29" id="0" />
-    <edge source="36" target="39" id="0" />
+    <edge source="36" target="27" id="0" />
     <edge source="36" target="22" id="0" />
-    <edge source="36" target="16" id="0" />
-    <edge source="36" target="31" id="0" />
+    <edge source="36" target="32" id="0" />
     <edge source="36" target="8" id="0" />
-    <edge source="36" target="43" id="0" />
-    <edge source="36" target="19" id="0" />
+    <edge source="36" target="31" id="0" />
+    <edge source="36" target="40" id="0" />
+    <edge source="36" target="0" id="0" />
+    <edge source="36" target="20" id="0" />
     <edge source="36" target="49" id="482">
       <data key="channel_open">--local_amt=50000000 --push_amt=25000000</data>
       <data key="source_policy"> --base_fee_msat=0 --fee_rate_ppm=0 --time_lock_delta=80 --min_htlc_msat=1000 --max_htlc_msat=25000000000</data>
@@ -1317,187 +1317,187 @@
       <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=999 --time_lock_delta=144 --min_htlc_msat=1000 --max_htlc_msat=50000000000</data>
     </edge>
     <edge source="37" target="38" id="0" />
-    <edge source="37" target="45" id="0" />
-    <edge source="37" target="45" id="528">
-      <data key="channel_open">--local_amt=250000 --push_amt=125000</data>
-      <data key="source_policy"> --base_fee_msat=100 --fee_rate_ppm=10 --time_lock_delta=50 --min_htlc_msat=1000 --max_htlc_msat=125000000</data>
-      <data key="target_policy"> --base_fee_msat=0 --fee_rate_ppm=30 --time_lock_delta=80 --min_htlc_msat=1000 --max_htlc_msat=125000000</data>
-    </edge>
-    <edge source="37" target="47" id="0" />
+    <edge source="37" target="13" id="0" />
+    <edge source="37" target="15" id="0" />
+    <edge source="37" target="46" id="0" />
+    <edge source="37" target="4" id="0" />
+    <edge source="37" target="39" id="0" />
+    <edge source="37" target="21" id="0" />
+    <edge source="37" target="0" id="0" />
+    <edge source="37" target="7" id="0" />
     <edge source="37" target="47" id="519">
       <data key="channel_open">--local_amt=1000000 --push_amt=500000</data>
       <data key="source_policy"> --base_fee_msat=0 --fee_rate_ppm=10 --time_lock_delta=50 --min_htlc_msat=1000 --max_htlc_msat=500000000</data>
       <data key="target_policy"> --base_fee_msat=0 --fee_rate_ppm=600 --time_lock_delta=80 --min_htlc_msat=1000 --max_htlc_msat=500000000</data>
     </edge>
-    <edge source="37" target="16" id="0" />
-    <edge source="37" target="11" id="0" />
-    <edge source="37" target="2" id="0" />
-    <edge source="37" target="24" id="0" />
-    <edge source="37" target="49" id="0" />
-    <edge source="37" target="39" id="0" />
+    <edge source="37" target="45" id="528">
+      <data key="channel_open">--local_amt=250000 --push_amt=125000</data>
+      <data key="source_policy"> --base_fee_msat=100 --fee_rate_ppm=10 --time_lock_delta=50 --min_htlc_msat=1000 --max_htlc_msat=125000000</data>
+      <data key="target_policy"> --base_fee_msat=0 --fee_rate_ppm=30 --time_lock_delta=80 --min_htlc_msat=1000 --max_htlc_msat=125000000</data>
+    </edge>
     <edge source="38" target="39" id="0" />
-    <edge source="38" target="36" id="0" />
-    <edge source="38" target="12" id="0" />
-    <edge source="38" target="30" id="0" />
-    <edge source="38" target="34" id="0" />
-    <edge source="38" target="9" id="0" />
-    <edge source="38" target="3" id="0" />
+    <edge source="38" target="29" id="0" />
+    <edge source="38" target="35" id="0" />
+    <edge source="38" target="27" id="0" />
+    <edge source="38" target="42" id="0" />
+    <edge source="38" target="10" id="0" />
     <edge source="38" target="7" id="0" />
-    <edge source="38" target="21" id="0" />
+    <edge source="38" target="11" id="0" />
+    <edge source="38" target="48" id="0" />
     <edge source="39" target="40" id="0" />
+    <edge source="39" target="18" id="0" />
+    <edge source="39" target="50" id="0" />
     <edge source="39" target="16" id="0" />
-    <edge source="39" target="22" id="0" />
-    <edge source="39" target="44" id="0" />
+    <edge source="39" target="0" id="0" />
+    <edge source="39" target="36" id="0" />
+    <edge source="39" target="7" id="0" />
+    <edge source="39" target="29" id="0" />
+    <edge source="39" target="10" id="0" />
     <edge source="39" target="44" id="502">
       <data key="channel_open">--local_amt=700000 --push_amt=350000</data>
       <data key="source_policy"> --base_fee_msat=1000 --fee_rate_ppm=1 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=350000000</data>
       <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=499 --time_lock_delta=144 --min_htlc_msat=1 --max_htlc_msat=350000000</data>
     </edge>
-    <edge source="39" target="12" id="0" />
-    <edge source="39" target="32" id="0" />
-    <edge source="39" target="19" id="0" />
-    <edge source="39" target="13" id="0" />
-    <edge source="39" target="21" id="0" />
     <edge source="40" target="41" id="0" />
-    <edge source="40" target="46" id="0" />
+    <edge source="40" target="38" id="0" />
+    <edge source="40" target="15" id="0" />
+    <edge source="40" target="45" id="0" />
+    <edge source="40" target="10" id="0" />
+    <edge source="40" target="21" id="0" />
+    <edge source="40" target="11" id="0" />
+    <edge source="40" target="43" id="0" />
+    <edge source="40" target="16" id="0" />
     <edge source="40" target="46" id="520">
       <data key="channel_open">--local_amt=51000 --push_amt=25500</data>
       <data key="source_policy"> --base_fee_msat=1000 --fee_rate_ppm=1 --time_lock_delta=80 --min_htlc_msat=1000 --max_htlc_msat=25500000</data>
       <data key="target_policy"> --base_fee_msat=1234 --fee_rate_ppm=1 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=25500000</data>
     </edge>
-    <edge source="40" target="30" id="0" />
-    <edge source="40" target="20" id="0" />
-    <edge source="40" target="36" id="0" />
-    <edge source="40" target="47" id="0" />
-    <edge source="40" target="24" id="0" />
-    <edge source="40" target="25" id="0" />
-    <edge source="40" target="35" id="0" />
     <edge source="41" target="42" id="0" />
-    <edge source="41" target="45" id="0" />
     <edge source="41" target="6" id="0" />
-    <edge source="41" target="46" id="0" />
-    <edge source="41" target="27" id="0" />
-    <edge source="41" target="37" id="0" />
     <edge source="41" target="28" id="0" />
-    <edge source="41" target="43" id="0" />
-    <edge source="41" target="38" id="0" />
+    <edge source="41" target="31" id="0" />
+    <edge source="41" target="33" id="0" />
+    <edge source="41" target="18" id="0" />
+    <edge source="41" target="50" id="0" />
+    <edge source="41" target="15" id="0" />
+    <edge source="41" target="21" id="0" />
     <edge source="42" target="43" id="0" />
-    <edge source="42" target="46" id="0" />
+    <edge source="42" target="30" id="0" />
+    <edge source="42" target="22" id="0" />
+    <edge source="42" target="17" id="0" />
+    <edge source="42" target="28" id="0" />
+    <edge source="42" target="36" id="0" />
+    <edge source="42" target="34" id="0" />
+    <edge source="42" target="21" id="0" />
     <edge source="42" target="11" id="0" />
-    <edge source="42" target="40" id="0" />
-    <edge source="42" target="47" id="0" />
-    <edge source="42" target="24" id="0" />
-    <edge source="42" target="39" id="0" />
-    <edge source="42" target="4" id="0" />
-    <edge source="42" target="49" id="0" />
     <edge source="42" target="49" id="485">
       <data key="channel_open">--local_amt=20000000 --push_amt=10000000</data>
       <data key="source_policy"> --base_fee_msat=0 --fee_rate_ppm=0 --time_lock_delta=80 --min_htlc_msat=1000 --max_htlc_msat=10000000000</data>
       <data key="target_policy"> --base_fee_msat=0 --fee_rate_ppm=0 --time_lock_delta=80 --min_htlc_msat=1000 --max_htlc_msat=10000000000</data>
     </edge>
     <edge source="43" target="44" id="0" />
-    <edge source="43" target="4" id="0" />
-    <edge source="43" target="38" id="0" />
-    <edge source="43" target="19" id="0" />
-    <edge source="43" target="49" id="0" />
-    <edge source="43" target="3" id="0" />
-    <edge source="43" target="23" id="0" />
-    <edge source="43" target="6" id="0" />
+    <edge source="43" target="28" id="0" />
+    <edge source="43" target="2" id="0" />
+    <edge source="43" target="24" id="0" />
     <edge source="43" target="18" id="0" />
+    <edge source="43" target="22" id="0" />
+    <edge source="43" target="5" id="0" />
+    <edge source="43" target="10" id="0" />
+    <edge source="43" target="41" id="0" />
     <edge source="44" target="45" id="0" />
-    <edge source="44" target="7" id="0" />
-    <edge source="44" target="42" id="0" />
-    <edge source="44" target="33" id="0" />
-    <edge source="44" target="6" id="0" />
-    <edge source="44" target="15" id="0" />
-    <edge source="44" target="0" id="0" />
-    <edge source="44" target="48" id="0" />
-    <edge source="44" target="35" id="0" />
+    <edge source="44" target="50" id="0" />
+    <edge source="44" target="39" id="0" />
+    <edge source="44" target="5" id="0" />
+    <edge source="44" target="34" id="0" />
+    <edge source="44" target="9" id="0" />
+    <edge source="44" target="14" id="0" />
+    <edge source="44" target="31" id="0" />
+    <edge source="44" target="23" id="0" />
     <edge source="44" target="49" id="536">
       <data key="channel_open">--local_amt=99995000 --push_amt=49997500</data>
       <data key="source_policy"> --base_fee_msat=2000 --fee_rate_ppm=2500 --time_lock_delta=140 --min_htlc_msat=100 --max_htlc_msat=49997500000</data>
       <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=499 --time_lock_delta=144 --min_htlc_msat=1000 --max_htlc_msat=49997500000</data>
     </edge>
     <edge source="45" target="46" id="0" />
-    <edge source="45" target="36" id="0" />
-    <edge source="45" target="47" id="0" />
-    <edge source="45" target="28" id="0" />
-    <edge source="45" target="20" id="0" />
-    <edge source="45" target="12" id="0" />
-    <edge source="45" target="34" id="0" />
+    <edge source="45" target="29" id="0" />
+    <edge source="45" target="26" id="0" />
+    <edge source="45" target="30" id="0" />
+    <edge source="45" target="42" id="0" />
+    <edge source="45" target="43" id="0" />
     <edge source="45" target="0" id="0" />
-    <edge source="45" target="27" id="0" />
+    <edge source="45" target="23" id="0" />
+    <edge source="45" target="22" id="0" />
     <edge source="46" target="47" id="0" />
     <edge source="46" target="47" id="497">
       <data key="channel_open">--local_amt=75000 --push_amt=37500</data>
       <data key="source_policy"> --base_fee_msat=0 --fee_rate_ppm=1 --time_lock_delta=80 --min_htlc_msat=1000 --max_htlc_msat=37500000</data>
       <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=1 --time_lock_delta=40 --min_htlc_msat=1000 --max_htlc_msat=37500000</data>
     </edge>
-    <edge source="46" target="44" id="0" />
-    <edge source="46" target="15" id="0" />
-    <edge source="46" target="35" id="0" />
-    <edge source="46" target="11" id="0" />
-    <edge source="46" target="49" id="0" />
-    <edge source="46" target="9" id="0" />
-    <edge source="46" target="13" id="0" />
-    <edge source="46" target="27" id="0" />
+    <edge source="46" target="50" id="0" />
+    <edge source="46" target="31" id="0" />
+    <edge source="46" target="39" id="0" />
+    <edge source="46" target="48" id="0" />
+    <edge source="46" target="12" id="0" />
+    <edge source="46" target="30" id="0" />
+    <edge source="46" target="36" id="0" />
+    <edge source="46" target="22" id="0" />
     <edge source="47" target="48" id="0" />
-    <edge source="47" target="49" id="0" />
     <edge source="47" target="26" id="0" />
-    <edge source="47" target="4" id="0" />
-    <edge source="47" target="27" id="0" />
-    <edge source="47" target="32" id="0" />
+    <edge source="47" target="23" id="0" />
+    <edge source="47" target="20" id="0" />
+    <edge source="47" target="16" id="0" />
+    <edge source="47" target="43" id="0" />
+    <edge source="47" target="21" id="0" />
     <edge source="47" target="35" id="0" />
-    <edge source="47" target="12" id="0" />
-    <edge source="47" target="2" id="0" />
+    <edge source="47" target="19" id="0" />
     <edge source="48" target="49" id="0" />
-    <edge source="48" target="2" id="0" />
-    <edge source="48" target="37" id="0" />
-    <edge source="48" target="14" id="0" />
-    <edge source="48" target="24" id="0" />
-    <edge source="48" target="40" id="0" />
     <edge source="48" target="9" id="0" />
-    <edge source="48" target="30" id="0" />
-    <edge source="48" target="46" id="0" />
+    <edge source="48" target="28" id="0" />
+    <edge source="48" target="18" id="0" />
+    <edge source="48" target="33" id="0" />
+    <edge source="48" target="8" id="0" />
+    <edge source="48" target="39" id="0" />
+    <edge source="48" target="31" id="0" />
+    <edge source="48" target="40" id="0" />
     <edge source="49" target="50" id="0" />
-    <edge source="49" target="28" id="0" />
-    <edge source="49" target="26" id="0" />
-    <edge source="49" target="41" id="0" />
-    <edge source="49" target="36" id="0" />
-    <edge source="49" target="7" id="0" />
-    <edge source="49" target="12" id="0" />
-    <edge source="49" target="18" id="0" />
-    <edge source="49" target="14" id="0" />
+    <edge source="49" target="39" id="0" />
+    <edge source="49" target="5" id="0" />
+    <edge source="49" target="3" id="0" />
+    <edge source="49" target="13" id="0" />
+    <edge source="49" target="37" id="0" />
+    <edge source="49" target="45" id="0" />
+    <edge source="49" target="30" id="0" />
+    <edge source="49" target="19" id="0" />
     <edge source="50" target="0" id="0" />
     <edge source="50" target="0" id="459">
       <data key="channel_open">--local_amt=10000000 --push_amt=5000000</data>
       <data key="source_policy"> --base_fee_msat=0 --fee_rate_ppm=0 --time_lock_delta=40 --min_htlc_msat=1 --max_htlc_msat=5000000000</data>
       <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=1000 --time_lock_delta=144 --min_htlc_msat=1 --max_htlc_msat=5000000000</data>
     </edge>
-    <edge source="50" target="31" id="0" />
-    <edge source="50" target="6" id="0" />
-    <edge source="50" target="4" id="0" />
-    <edge source="50" target="4" id="463">
+    <edge source="50" target="13" id="0" />
+    <edge source="50" target="45" id="0" />
+    <edge source="50" target="3" id="0" />
+    <edge source="50" target="3" id="462">
       <data key="channel_open">--local_amt=10000000 --push_amt=5000000</data>
       <data key="source_policy"> --base_fee_msat=0 --fee_rate_ppm=0 --time_lock_delta=40 --min_htlc_msat=1 --max_htlc_msat=5000000000</data>
       <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=1000 --time_lock_delta=144 --min_htlc_msat=1 --max_htlc_msat=5000000000</data>
     </edge>
     <edge source="50" target="25" id="0" />
-    <edge source="50" target="18" id="0" />
-    <edge source="50" target="29" id="0" />
-    <edge source="50" target="17" id="0" />
-    <edge source="50" target="7" id="0" />
+    <edge source="50" target="1" id="0" />
     <edge source="50" target="1" id="460">
       <data key="channel_open">--local_amt=10000000 --push_amt=5000000</data>
       <data key="source_policy"> --base_fee_msat=0 --fee_rate_ppm=0 --time_lock_delta=40 --min_htlc_msat=1 --max_htlc_msat=5000000000</data>
       <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=1000 --time_lock_delta=144 --min_htlc_msat=1 --max_htlc_msat=5000000000</data>
     </edge>
+    <edge source="50" target="29" id="0" />
+    <edge source="50" target="40" id="0" />
+    <edge source="50" target="9" id="0" />
     <edge source="50" target="2" id="461">
       <data key="channel_open">--local_amt=10000000 --push_amt=5000000</data>
       <data key="source_policy"> --base_fee_msat=0 --fee_rate_ppm=0 --time_lock_delta=40 --min_htlc_msat=1 --max_htlc_msat=5000000000</data>
       <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=1000 --time_lock_delta=144 --min_htlc_msat=1 --max_htlc_msat=5000000000</data>
     </edge>
-    <edge source="50" target="3" id="462">
+    <edge source="50" target="4" id="463">
       <data key="channel_open">--local_amt=10000000 --push_amt=5000000</data>
       <data key="source_policy"> --base_fee_msat=0 --fee_rate_ppm=0 --time_lock_delta=40 --min_htlc_msat=1 --max_htlc_msat=5000000000</data>
       <data key="target_policy"> --base_fee_msat=1000 --fee_rate_ppm=1000 --time_lock_delta=144 --min_htlc_msat=1 --max_htlc_msat=5000000000</data>
