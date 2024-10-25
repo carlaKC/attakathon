@@ -47,6 +47,11 @@ def get_revenue_stats(network_name, node_id, revenue_period_ns):
 
     projected_values = []
     for filename in os.listdir(data_path):
+        # If we're busy generating projections while we run this, there may be a /results folder in here.
+        if not filename.endswith(".csv"):
+            print(f"Skipping {filename}, not a csv")
+            continue
+
         projected_data = os.path.join(data_path, filename)
         projected = get_projected_revenue(projected_data, node_id, revenue_period_ns)
         projected_values.append(projected)
