@@ -4,11 +4,7 @@ data.csv
 __pycache__/
 *.py[cod]
 
-channels.json
-thresholds.json
-forwarding_history.json
-
-data/*/projections/*
+data/*/projections/*.csv
 data/*/reputations.csv
 results/*
 

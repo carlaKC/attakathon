@@ -1,7 +1,6 @@
+import sys
 import subprocess
 import json
-import pandas as pd
-import argparse
 
 def run_lncli_command(command):
     result = subprocess.run(
@@ -15,6 +14,41 @@ def run_lncli_command(command):
         return None
     
     return json.loads(result.stdout.decode('utf-8'))
+
+def get_peacetime_revenue(forwarding_hist_file, revenue_period_ns):
+    success_fees_msat = 0
+    uncond_fees_msat = 0
+    timestamp_limit = None
+
+    with open(forwarding_hist_file, 'r') as file:
+        data = json.load(file)
+        
+    for forward in data['forwards']:
+        incoming_amount = int(forward['incomingAmount'])
+        outgoing_amount = int(forward['outgoingAmount'])
+        fee_msat = incoming_amount - outgoing_amount
+        incoming_add_ts = int(forward['addTimeNs'])
+
+        # We want to only get entries for the period that we've defined to have a way to compare revenue to what we got in the simulation 
+        # that ran for revenue_period_ns. We don't have a start time for this projected data, so we just grab our first timestamp as the 
+        # start. This is imperfect, and may lead to us over-estimating revenue without an attack (especially if there was a long wait 
+        # for the first payment to occur). This could possibly be improved by including the start time in the file name so we can get 
+        # an exact start, but is okay for now.
+        # 
+        # We can't use actual timestamps here, because this data was generated once-off and has old timestamps (hasn't been "progressed"
+        # to current times like we do for bootstrapped data, as this isn't actually necessary).
+        if timestamp_limit is None:
+            timestamp_limit = incoming_add_ts + revenue_period_ns
+
+        if incoming_add_ts >= timestamp_limit:
+            break
+           
+        if forward['settled']:
+            success_fees_msat += fee_msat
+        else:
+            uncond_fees_msat += fee_msat*0.01
+
+    return success_fees_msat, uncond_fees_msat
 
 def get_target_revenue(forwarding_hist_file, start_time_ns, end_time_ns):
     with open(forwarding_hist_file, 'r') as file:
@@ -124,3 +158,16 @@ def get_attacker_costs(file_name, command, target_pubkey, start_time_ns, end_tim
         json.dump({"payments": result}, f, indent=4)
 
     return process_attacker_payments(result, target_pubkey, start_time_ns, end_time_ns)
+
+if __name__ == "__main__":
+    if len(sys.argv) < 4:
+        print("Usage: python projected_revenue.py <network_name> <start_ns> <end_ns>") 
+        sys.exit(1)
+
+    network_name = sys.argv[1]
+    start_time_ns = int(sys.argv[2])
+    end_time_ns = int(sys.argv[3]) 
+
+    projection_file=f"data/{network_name}/projections/forwarding_history.json"
+    success, uncond = get_peacetime_revenue(projection_file, end_time_ns - start_time_ns)
+    print(f"Revenue {success+uncond} msat for {network_name} duration {end_time_ns - start_time_ns}")

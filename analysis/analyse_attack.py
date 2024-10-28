@@ -1,12 +1,9 @@
 import time
-import projected_revenue
 from datetime import datetime
 import re
 import subprocess
-import csv
 import json
 import costs
-import tempfile
 import os
 import sys
 import target_jammed
@@ -77,9 +74,9 @@ if __name__ == "__main__":
 
     # If an end time was provided, use it. Otherwise we'll use the current time as an end time.
     if len(sys.argv) > 2:
-        end_time = sys.argv[2]
+        end_time = int(sys.argv[2])
     else:
-        end_time = time.time_ns()
+        end_time = int(time.time_ns())
 
     # Use the time that sim-ln started as our start time, this is when payments would have started
     # to flow through the network.
@@ -133,8 +130,12 @@ if __name__ == "__main__":
     print(f"- Success fees: {attacker_success_msat} msat")
     print(f"- Unconditional fees: {attacker_unconditional_msat} msat\n")
 
-    mean_revenue, std_dev = projected_revenue.get_revenue_stats(network_name, node_id, end_time-start_time)
-    print(f"Target revenue without attack: {mean_revenue} msat (standard deviation: {std_dev}")
+    # Get peacetime revenue
+    projection_file=f"data/{network_name}/projections/forwarding_history.json"
+    no_attack_success, no_attack_unconditional = costs.get_peacetime_revenue(projection_file, end_time - start_time)
+    print(f"Target revenue without attack: {no_attack_success+no_attack_unconditional} msat")
+    print(f"- Success Fees: {no_attack_success} msat")
+    print(f"- Unconditional fees: {no_attack_success} msat\n")
 
     success_revenue, unconditional_revenue = costs.get_target_revenue(fwd_file, start_time, end_time)
     target_revenue = success_revenue + unconditional_revenue
